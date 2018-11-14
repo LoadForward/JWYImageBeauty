@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0A053C398C851EDC5157661 /* libPods-JWYImageBeautify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C56E74061673FCBC55689C01 /* libPods-JWYImageBeautify.a */; };
+		D92886BD1E6661D9007AF731 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D92886BC1E6661D9007AF731 /* main.m */; };
+		D92886C01E6661D9007AF731 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D92886BF1E6661D9007AF731 /* AppDelegate.m */; };
+		D92886C81E6661D9007AF731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92886C71E6661D9007AF731 /* Assets.xcassets */; };
+		D92886CB1E6661D9007AF731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92886C91E6661D9007AF731 /* LaunchScreen.storyboard */; };
+		D92886D61E6661D9007AF731 /* JWYImageBeautifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D92886D51E6661D9007AF731 /* JWYImageBeautifyTests.m */; };
+		D92886E11E6661D9007AF731 /* JWYImageBeautifyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D92886E01E6661D9007AF731 /* JWYImageBeautifyUITests.m */; };
+		D92886F01E66622E007AF731 /* JWYImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92886EF1E66622E007AF731 /* JWYImageViewController.m */; };
+		D92886F61E6664E6007AF731 /* JWYImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D92886F51E6664E6007AF731 /* JWYImageBeautifyFilter.m */; };
+		D92886F91E666777007AF731 /* JWYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D92886F81E666777007AF731 /* JWYRootViewController.m */; };
+		D92886FD1E666C2C007AF731 /* hh-fanhui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92886FB1E666C2C007AF731 /* hh-fanhui@2x.png */; };
+		D92886FE1E666C2C007AF731 /* hh-fanhui@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92886FC1E666C2C007AF731 /* hh-fanhui@3x.png */; };
+		D92887231E666C53007AF731 /* auto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92886FF1E666C53007AF731 /* auto@2x.png */; };
+		D92887241E666C53007AF731 /* auto@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92887001E666C53007AF731 /* auto@3x.png */; };
+		D92887271E666C53007AF731 /* e_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92887031E666C53007AF731 /* e_phone@2x.png */; };
+		D92887281E666C53007AF731 /* e_phone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92887041E666C53007AF731 /* e_phone@3x.png */; };
+		D92887331E666C53007AF731 /* z_dakai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D928870F1E666C53007AF731 /* z_dakai@2x.png */; };
+		D92887341E666C53007AF731 /* z_dakai@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92887101E666C53007AF731 /* z_dakai@3x.png */; };
+		D92887351E666C53007AF731 /* z_guanbi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92887111E666C53007AF731 /* z_guanbi@2x.png */; };
+		D92887361E666C53007AF731 /* z_guanbi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92887121E666C53007AF731 /* z_guanbi@3x.png */; };
+		D92887371E666C53007AF731 /* z_zidong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92887131E666C53007AF731 /* z_zidong@2x.png */; };
+		D92887381E666C53007AF731 /* z_zidong@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92887141E666C53007AF731 /* z_zidong@3x.png */; };
+		D92887391E666C53007AF731 /* zhuanhuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92887151E666C53007AF731 /* zhuanhuan@2x.png */; };
+		D928873A1E666C53007AF731 /* zhuanhuan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92887161E666C53007AF731 /* zhuanhuan@3x.png */; };
+		D928873B1E666C53007AF731 /* zipai_fanhui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92887171E666C53007AF731 /* zipai_fanhui@2x.png */; };
+		D928873C1E666C53007AF731 /* zipai_fanhui@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92887181E666C53007AF731 /* zipai_fanhui@3x.png */; };
+		D928873D1E666C53007AF731 /* zipai-baocun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92887191E666C53007AF731 /* zipai-baocun@2x.png */; };
+		D928873E1E666C53007AF731 /* zipai-baocun@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D928871A1E666C53007AF731 /* zipai-baocun@3x.png */; };
+		D928873F1E666C53007AF731 /* zipai-chongpai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D928871B1E666C53007AF731 /* zipai-chongpai@2x.png */; };
+		D92887401E666C53007AF731 /* zipai-chongpai@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D928871C1E666C53007AF731 /* zipai-chongpai@3x.png */; };
+		D92887491E667352007AF731 /* JWYResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = D92887481E667352007AF731 /* JWYResultView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D92886D21E6661D9007AF731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D92886B01E6661D9007AF731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D92886B71E6661D9007AF731;
+			remoteInfo = JWYImageBeautify;
+		};
+		D92886DD1E6661D9007AF731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D92886B01E6661D9007AF731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D92886B71E6661D9007AF731;
+			remoteInfo = JWYImageBeautify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EE6DDB8FE915EF6AE48E0DC /* Pods-JWYImageBeautify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWYImageBeautify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWYImageBeautify/Pods-JWYImageBeautify.debug.xcconfig"; sourceTree = "<group>"; };
+		C56E74061673FCBC55689C01 /* libPods-JWYImageBeautify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWYImageBeautify.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44D86A4254E1D6B9A282768 /* Pods-JWYImageBeautify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWYImageBeautify.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWYImageBeautify/Pods-JWYImageBeautify.release.xcconfig"; sourceTree = "<group>"; };
+		D92886B81E6661D9007AF731 /* JWYImageBeautify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWYImageBeautify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92886BC1E6661D9007AF731 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D92886BE1E6661D9007AF731 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D92886BF1E6661D9007AF731 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D92886C71E6661D9007AF731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D92886CA1E6661D9007AF731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D92886CC1E6661D9007AF731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D92886D11E6661D9007AF731 /* JWYImageBeautifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWYImageBeautifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92886D51E6661D9007AF731 /* JWYImageBeautifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWYImageBeautifyTests.m; sourceTree = "<group>"; };
+		D92886D71E6661D9007AF731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D92886DC1E6661D9007AF731 /* JWYImageBeautifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWYImageBeautifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92886E01E6661D9007AF731 /* JWYImageBeautifyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWYImageBeautifyUITests.m; sourceTree = "<group>"; };
+		D92886E21E6661D9007AF731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D92886EE1E66622E007AF731 /* JWYImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWYImageViewController.h; sourceTree = "<group>"; };
+		D92886EF1E66622E007AF731 /* JWYImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWYImageViewController.m; sourceTree = "<group>"; };
+		D92886F11E666377007AF731 /* ImageBeautify.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageBeautify.pch; sourceTree = "<group>"; };
+		D92886F41E6664E6007AF731 /* JWYImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWYImageBeautifyFilter.h; sourceTree = "<group>"; };
+		D92886F51E6664E6007AF731 /* JWYImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWYImageBeautifyFilter.m; sourceTree = "<group>"; };
+		D92886F71E666777007AF731 /* JWYRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWYRootViewController.h; sourceTree = "<group>"; };
+		D92886F81E666777007AF731 /* JWYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWYRootViewController.m; sourceTree = "<group>"; };
+		D92886FB1E666C2C007AF731 /* hh-fanhui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hh-fanhui@2x.png"; sourceTree = "<group>"; };
+		D92886FC1E666C2C007AF731 /* hh-fanhui@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hh-fanhui@3x.png"; sourceTree = "<group>"; };
+		D92886FF1E666C53007AF731 /* auto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "auto@2x.png"; sourceTree = "<group>"; };
+		D92887001E666C53007AF731 /* auto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "auto@3x.png"; sourceTree = "<group>"; };
+		D92887031E666C53007AF731 /* e_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "e_phone@2x.png"; sourceTree = "<group>"; };
+		D92887041E666C53007AF731 /* e_phone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "e_phone@3x.png"; sourceTree = "<group>"; };
+		D928870F1E666C53007AF731 /* z_dakai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "z_dakai@2x.png"; sourceTree = "<group>"; };
+		D92887101E666C53007AF731 /* z_dakai@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "z_dakai@3x.png"; sourceTree = "<group>"; };
+		D92887111E666C53007AF731 /* z_guanbi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "z_guanbi@2x.png"; sourceTree = "<group>"; };
+		D92887121E666C53007AF731 /* z_guanbi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "z_guanbi@3x.png"; sourceTree = "<group>"; };
+		D92887131E666C53007AF731 /* z_zidong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "z_zidong@2x.png"; sourceTree = "<group>"; };
+		D92887141E666C53007AF731 /* z_zidong@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "z_zidong@3x.png"; sourceTree = "<group>"; };
+		D92887151E666C53007AF731 /* zhuanhuan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhuanhuan@2x.png"; sourceTree = "<group>"; };
+		D92887161E666C53007AF731 /* zhuanhuan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhuanhuan@3x.png"; sourceTree = "<group>"; };
+		D92887171E666C53007AF731 /* zipai_fanhui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zipai_fanhui@2x.png"; sourceTree = "<group>"; };
+		D92887181E666C53007AF731 /* zipai_fanhui@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zipai_fanhui@3x.png"; sourceTree = "<group>"; };
+		D92887191E666C53007AF731 /* zipai-baocun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zipai-baocun@2x.png"; sourceTree = "<group>"; };
+		D928871A1E666C53007AF731 /* zipai-baocun@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zipai-baocun@3x.png"; sourceTree = "<group>"; };
+		D928871B1E666C53007AF731 /* zipai-chongpai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zipai-chongpai@2x.png"; sourceTree = "<group>"; };
+		D928871C1E666C53007AF731 /* zipai-chongpai@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zipai-chongpai@3x.png"; sourceTree = "<group>"; };
+		D92887471E667352007AF731 /* JWYResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWYResultView.h; sourceTree = "<group>"; };
+		D92887481E667352007AF731 /* JWYResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWYResultView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D92886B51E6661D9007AF731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A053C398C851EDC5157661 /* libPods-JWYImageBeautify.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92886CE1E6661D9007AF731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92886D91E6661D9007AF731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28FA20AF3DA727244BBAAA1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C56E74061673FCBC55689C01 /* libPods-JWYImageBeautify.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB265C0B973E7F461E84238E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EE6DDB8FE915EF6AE48E0DC /* Pods-JWYImageBeautify.debug.xcconfig */,
+				D44D86A4254E1D6B9A282768 /* Pods-JWYImageBeautify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D92886AF1E6661D9007AF731 = {
+			isa = PBXGroup;
+			children = (
+				D92886BA1E6661D9007AF731 /* JWYImageBeautify */,
+				D92886D41E6661D9007AF731 /* JWYImageBeautifyTests */,
+				D92886DF1E6661D9007AF731 /* JWYImageBeautifyUITests */,
+				D92886B91E6661D9007AF731 /* Products */,
+				CB265C0B973E7F461E84238E /* Pods */,
+				28FA20AF3DA727244BBAAA1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D92886B91E6661D9007AF731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D92886B81E6661D9007AF731 /* JWYImageBeautify.app */,
+				D92886D11E6661D9007AF731 /* JWYImageBeautifyTests.xctest */,
+				D92886DC1E6661D9007AF731 /* JWYImageBeautifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D92886BA1E6661D9007AF731 /* JWYImageBeautify */ = {
+			isa = PBXGroup;
+			children = (
+				D92886BE1E6661D9007AF731 /* AppDelegate.h */,
+				D92886BF1E6661D9007AF731 /* AppDelegate.m */,
+				D92886F31E6664A3007AF731 /* 美颜相机 */,
+				D92886F21E666488007AF731 /* 图像处理 */,
+				D92886C71E6661D9007AF731 /* Assets.xcassets */,
+				D92886C91E6661D9007AF731 /* LaunchScreen.storyboard */,
+				D92886CC1E6661D9007AF731 /* Info.plist */,
+				D92886BB1E6661D9007AF731 /* Supporting Files */,
+			);
+			path = JWYImageBeautify;
+			sourceTree = "<group>";
+		};
+		D92886BB1E6661D9007AF731 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D92886FA1E666C1E007AF731 /* images */,
+				D92886BC1E6661D9007AF731 /* main.m */,
+				D92886F11E666377007AF731 /* ImageBeautify.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D92886D41E6661D9007AF731 /* JWYImageBeautifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D92886D51E6661D9007AF731 /* JWYImageBeautifyTests.m */,
+				D92886D71E6661D9007AF731 /* Info.plist */,
+			);
+			path = JWYImageBeautifyTests;
+			sourceTree = "<group>";
+		};
+		D92886DF1E6661D9007AF731 /* JWYImageBeautifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D92886E01E6661D9007AF731 /* JWYImageBeautifyUITests.m */,
+				D92886E21E6661D9007AF731 /* Info.plist */,
+			);
+			path = JWYImageBeautifyUITests;
+			sourceTree = "<group>";
+		};
+		D92886F21E666488007AF731 /* 图像处理 */ = {
+			isa = PBXGroup;
+			children = (
+				D92886F41E6664E6007AF731 /* JWYImageBeautifyFilter.h */,
+				D92886F51E6664E6007AF731 /* JWYImageBeautifyFilter.m */,
+			);
+			name = "图像处理";
+			sourceTree = "<group>";
+		};
+		D92886F31E6664A3007AF731 /* 美颜相机 */ = {
+			isa = PBXGroup;
+			children = (
+				D92886F71E666777007AF731 /* JWYRootViewController.h */,
+				D92886F81E666777007AF731 /* JWYRootViewController.m */,
+				D92886EE1E66622E007AF731 /* JWYImageViewController.h */,
+				D92886EF1E66622E007AF731 /* JWYImageViewController.m */,
+				D92887471E667352007AF731 /* JWYResultView.h */,
+				D92887481E667352007AF731 /* JWYResultView.m */,
+			);
+			name = "美颜相机";
+			sourceTree = "<group>";
+		};
+		D92886FA1E666C1E007AF731 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D92886FB1E666C2C007AF731 /* hh-fanhui@2x.png */,
+				D92886FC1E666C2C007AF731 /* hh-fanhui@3x.png */,
+				D92886FF1E666C53007AF731 /* auto@2x.png */,
+				D92887001E666C53007AF731 /* auto@3x.png */,
+				D92887031E666C53007AF731 /* e_phone@2x.png */,
+				D92887041E666C53007AF731 /* e_phone@3x.png */,
+				D928870F1E666C53007AF731 /* z_dakai@2x.png */,
+				D92887101E666C53007AF731 /* z_dakai@3x.png */,
+				D92887111E666C53007AF731 /* z_guanbi@2x.png */,
+				D92887121E666C53007AF731 /* z_guanbi@3x.png */,
+				D92887131E666C53007AF731 /* z_zidong@2x.png */,
+				D92887141E666C53007AF731 /* z_zidong@3x.png */,
+				D92887151E666C53007AF731 /* zhuanhuan@2x.png */,
+				D92887161E666C53007AF731 /* zhuanhuan@3x.png */,
+				D92887171E666C53007AF731 /* zipai_fanhui@2x.png */,
+				D92887181E666C53007AF731 /* zipai_fanhui@3x.png */,
+				D92887191E666C53007AF731 /* zipai-baocun@2x.png */,
+				D928871A1E666C53007AF731 /* zipai-baocun@3x.png */,
+				D928871B1E666C53007AF731 /* zipai-chongpai@2x.png */,
+				D928871C1E666C53007AF731 /* zipai-chongpai@3x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D92886B71E6661D9007AF731 /* JWYImageBeautify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92886E51E6661D9007AF731 /* Build configuration list for PBXNativeTarget "JWYImageBeautify" */;
+			buildPhases = (
+				6D6B049925F451293C189681 /* [CP] Check Pods Manifest.lock */,
+				D92886B41E6661D9007AF731 /* Sources */,
+				D92886B51E6661D9007AF731 /* Frameworks */,
+				D92886B61E6661D9007AF731 /* Resources */,
+				E776BA9532016DEE3E240237 /* [CP] Embed Pods Frameworks */,
+				4827EDD7B245D90165055CAA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWYImageBeautify;
+			productName = JWYImageBeautify;
+			productReference = D92886B81E6661D9007AF731 /* JWYImageBeautify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D92886D01E6661D9007AF731 /* JWYImageBeautifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92886E81E6661D9007AF731 /* Build configuration list for PBXNativeTarget "JWYImageBeautifyTests" */;
+			buildPhases = (
+				D92886CD1E6661D9007AF731 /* Sources */,
+				D92886CE1E6661D9007AF731 /* Frameworks */,
+				D92886CF1E6661D9007AF731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D92886D31E6661D9007AF731 /* PBXTargetDependency */,
+			);
+			name = JWYImageBeautifyTests;
+			productName = JWYImageBeautifyTests;
+			productReference = D92886D11E6661D9007AF731 /* JWYImageBeautifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D92886DB1E6661D9007AF731 /* JWYImageBeautifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92886EB1E6661D9007AF731 /* Build configuration list for PBXNativeTarget "JWYImageBeautifyUITests" */;
+			buildPhases = (
+				D92886D81E6661D9007AF731 /* Sources */,
+				D92886D91E6661D9007AF731 /* Frameworks */,
+				D92886DA1E6661D9007AF731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D92886DE1E6661D9007AF731 /* PBXTargetDependency */,
+			);
+			name = JWYImageBeautifyUITests;
+			productName = JWYImageBeautifyUITests;
+			productReference = D92886DC1E6661D9007AF731 /* JWYImageBeautifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D92886B01E6661D9007AF731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SoSee_Tech_01;
+				TargetAttributes = {
+					D92886B71E6661D9007AF731 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6T5KNCD9L8;
+						ProvisioningStyle = Automatic;
+					};
+					D92886D01E6661D9007AF731 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D92886B71E6661D9007AF731;
+					};
+					D92886DB1E6661D9007AF731 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D92886B71E6661D9007AF731;
+					};
+				};
+			};
+			buildConfigurationList = D92886B31E6661D9007AF731 /* Build configuration list for PBXProject "JWYImageBeautify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D92886AF1E6661D9007AF731;
+			productRefGroup = D92886B91E6661D9007AF731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D92886B71E6661D9007AF731 /* JWYImageBeautify */,
+				D92886D01E6661D9007AF731 /* JWYImageBeautifyTests */,
+				D92886DB1E6661D9007AF731 /* JWYImageBeautifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D92886B61E6661D9007AF731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92887341E666C53007AF731 /* z_dakai@3x.png in Resources */,
+				D928873C1E666C53007AF731 /* zipai_fanhui@3x.png in Resources */,
+				D92887371E666C53007AF731 /* z_zidong@2x.png in Resources */,
+				D92887361E666C53007AF731 /* z_guanbi@3x.png in Resources */,
+				D92887241E666C53007AF731 /* auto@3x.png in Resources */,
+				D928873B1E666C53007AF731 /* zipai_fanhui@2x.png in Resources */,
+				D92886CB1E6661D9007AF731 /* LaunchScreen.storyboard in Resources */,
+				D928873A1E666C53007AF731 /* zhuanhuan@3x.png in Resources */,
+				D92887391E666C53007AF731 /* zhuanhuan@2x.png in Resources */,
+				D92886C81E6661D9007AF731 /* Assets.xcassets in Resources */,
+				D92887281E666C53007AF731 /* e_phone@3x.png in Resources */,
+				D928873E1E666C53007AF731 /* zipai-baocun@3x.png in Resources */,
+				D92887401E666C53007AF731 /* zipai-chongpai@3x.png in Resources */,
+				D92887331E666C53007AF731 /* z_dakai@2x.png in Resources */,
+				D92886FE1E666C2C007AF731 /* hh-fanhui@3x.png in Resources */,
+				D92887351E666C53007AF731 /* z_guanbi@2x.png in Resources */,
+				D92886FD1E666C2C007AF731 /* hh-fanhui@2x.png in Resources */,
+				D928873D1E666C53007AF731 /* zipai-baocun@2x.png in Resources */,
+				D928873F1E666C53007AF731 /* zipai-chongpai@2x.png in Resources */,
+				D92887231E666C53007AF731 /* auto@2x.png in Resources */,
+				D92887271E666C53007AF731 /* e_phone@2x.png in Resources */,
+				D92887381E666C53007AF731 /* z_zidong@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92886CF1E6661D9007AF731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92886DA1E6661D9007AF731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4827EDD7B245D90165055CAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWYImageBeautify/Pods-JWYImageBeautify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D6B049925F451293C189681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E776BA9532016DEE3E240237 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWYImageBeautify/Pods-JWYImageBeautify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D92886B41E6661D9007AF731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92887491E667352007AF731 /* JWYResultView.m in Sources */,
+				D92886C01E6661D9007AF731 /* AppDelegate.m in Sources */,
+				D92886BD1E6661D9007AF731 /* main.m in Sources */,
+				D92886F01E66622E007AF731 /* JWYImageViewController.m in Sources */,
+				D92886F91E666777007AF731 /* JWYRootViewController.m in Sources */,
+				D92886F61E6664E6007AF731 /* JWYImageBeautifyFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92886CD1E6661D9007AF731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92886D61E6661D9007AF731 /* JWYImageBeautifyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92886D81E6661D9007AF731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92886E11E6661D9007AF731 /* JWYImageBeautifyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D92886D31E6661D9007AF731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D92886B71E6661D9007AF731 /* JWYImageBeautify */;
+			targetProxy = D92886D21E6661D9007AF731 /* PBXContainerItemProxy */;
+		};
+		D92886DE1E6661D9007AF731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D92886B71E6661D9007AF731 /* JWYImageBeautify */;
+			targetProxy = D92886DD1E6661D9007AF731 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D92886C91E6661D9007AF731 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D92886CA1E6661D9007AF731 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D92886E31E6661D9007AF731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D92886E41E6661D9007AF731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D92886E61E6661D9007AF731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE6DDB8FE915EF6AE48E0DC /* Pods-JWYImageBeautify.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6T5KNCD9L8;
+				GCC_PREFIX_HEADER = JWYImageBeautify/ImageBeautify.pch;
+				INFOPLIST_FILE = JWYImageBeautify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sosee.JWYImageBeautify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D92886E71E6661D9007AF731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44D86A4254E1D6B9A282768 /* Pods-JWYImageBeautify.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6T5KNCD9L8;
+				GCC_PREFIX_HEADER = JWYImageBeautify/ImageBeautify.pch;
+				INFOPLIST_FILE = JWYImageBeautify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sosee.JWYImageBeautify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D92886E91E6661D9007AF731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JWYImageBeautifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sosee.JWYImageBeautifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWYImageBeautify.app/JWYImageBeautify";
+			};
+			name = Debug;
+		};
+		D92886EA1E6661D9007AF731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JWYImageBeautifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sosee.JWYImageBeautifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWYImageBeautify.app/JWYImageBeautify";
+			};
+			name = Release;
+		};
+		D92886EC1E6661D9007AF731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JWYImageBeautifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sosee.JWYImageBeautifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWYImageBeautify;
+			};
+			name = Debug;
+		};
+		D92886ED1E6661D9007AF731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JWYImageBeautifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sosee.JWYImageBeautifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWYImageBeautify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D92886B31E6661D9007AF731 /* Build configuration list for PBXProject "JWYImageBeautify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92886E31E6661D9007AF731 /* Debug */,
+				D92886E41E6661D9007AF731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92886E51E6661D9007AF731 /* Build configuration list for PBXNativeTarget "JWYImageBeautify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92886E61E6661D9007AF731 /* Debug */,
+				D92886E71E6661D9007AF731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92886E81E6661D9007AF731 /* Build configuration list for PBXNativeTarget "JWYImageBeautifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92886E91E6661D9007AF731 /* Debug */,
+				D92886EA1E6661D9007AF731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92886EB1E6661D9007AF731 /* Build configuration list for PBXNativeTarget "JWYImageBeautifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92886EC1E6661D9007AF731 /* Debug */,
+				D92886ED1E6661D9007AF731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D92886B01E6661D9007AF731 /* Project object */;
+}

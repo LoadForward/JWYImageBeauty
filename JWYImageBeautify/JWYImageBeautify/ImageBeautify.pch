@@ -1,0 +1,17 @@
+//
+//  ImageBeautify.pch
+//  JWYImageBeautify
+//
+//  Created by SoSee_Tech_01 on 17/3/1.
+//  Copyright © 2017年 SoSee_Tech_01. All rights reserved.
+//
+
+#ifndef ImageBeautify_pch
+#define ImageBeautify_pch
+
+#define kScreenWidth [UIScreen mainScreen] .bounds.size.width
+#define kScreenHeight [UIScreen mainScreen] .bounds.size.height
+
+#import "GPUImage.h"
+
+#endif /* ImageBeautify_pch */
